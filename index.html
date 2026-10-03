@@ -1,0 +1,414 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Happy Boyfriend Day 💗</title><style>
+
+*{
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#ffd6ec,#e8d5ff,#ffc9df);
+    color:#5b245f;
+    overflow-x:hidden;
+}
+
+/* FLOATING HEARTS */
+
+.heart{
+    position:fixed;
+    bottom:-40px;
+    pointer-events:none;
+    animation:float 7s linear infinite;
+    z-index:5;
+}
+
+@keyframes float{
+    0%{
+        transform:translateY(0) rotate(0deg);
+        opacity:0;
+    }
+
+    15%{
+        opacity:1;
+    }
+
+    100%{
+        transform:translateY(-110vh) rotate(360deg);
+        opacity:0;
+    }
+}
+
+/* HOME */
+
+.home{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+.card{
+    width:100%;
+    max-width:650px;
+    padding:50px 30px;
+    border-radius:35px;
+    background:rgba(255,255,255,0.45);
+    backdrop-filter:blur(15px);
+    box-shadow:0 15px 40px rgba(100,30,100,0.2);
+    animation:appear 1.2s ease;
+}
+
+@keyframes appear{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.card h1{
+    font-size:55px;
+    color:#a52c76;
+    margin-bottom:10px;
+    animation:pulse 2s infinite;
+}
+
+@keyframes pulse{
+    50%{
+        transform:scale(1.06);
+    }
+}
+
+.card h2{
+    font-size:28px;
+    color:#92296e;
+    margin-bottom:20px;
+}
+
+.card h3{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+.card p{
+    font-size:17px;
+    line-height:1.8;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 28px;
+    border-radius:30px;
+    border:none;
+    background:linear-gradient(90deg,#d84d9b,#955bd5);
+    color:white;
+    font-size:16px;
+    text-decoration:none;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(130,40,120,0.25);
+}
+
+/* SECTIONS */
+
+section{
+    min-height:100vh;
+    padding:80px 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.content{
+    width:100%;
+    max-width:900px;
+    text-align:center;
+}
+
+.title{
+    font-size:38px;
+    color:#92296e;
+    margin-bottom:35px;
+}
+
+.box{
+    background:rgba(255,255,255,0.5);
+    backdrop-filter:blur(12px);
+    padding:30px;
+    margin:20px 0;
+    border-radius:25px;
+    box-shadow:0 8px 25px rgba(100,30,100,0.12);
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* SPECIAL THINGS */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.item{
+    background:rgba(255,255,255,0.55);
+    padding:30px 20px;
+    border-radius:25px;
+    transition:0.4s;
+}
+
+.item:hover{
+    transform:translateY(-10px) scale(1.02);
+}
+
+.item .emoji{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+/* SURPRISE */
+
+.surprise{
+    display:none;
+    margin-top:25px;
+    padding:25px;
+    border-radius:25px;
+    background:rgba(255,255,255,0.7);
+    animation:appear 0.8s ease;
+}
+
+footer{
+    text-align:center;
+    padding:50px 20px;
+    background:rgba(255,255,255,0.25);
+}
+
+footer h2{
+    color:#92296e;
+    margin-bottom:15px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px){
+
+    .card h1{
+        font-size:42px;
+    }
+
+    .card h2{
+        font-size:24px;
+    }
+
+    .title{
+        font-size:30px;
+    }
+
+    .card{
+        padding:40px 20px;
+    }
+
+}
+
+</style></head><body><!-- HOME --><section class="home" id="home"><div class="card"><h1>For You 💗</h1><h2>Happy Boyfriend Day! 💐💗</h2><h3>Ek chhoti si website... sirf aapke liye 🫶</h3><p>
+Aaj ka din sirf aapke naam. 💗
+</p><p>
+Kabhi kabhi kuch feelings words mein batana mushkil hota hai,
+isliye socha ek chhoti si duniya bana du...
+jisme bas aap aur meri kuch cute si baatein hain. 💕
+</p><p>
+Aap meri life ke bahut special person ho,
+aur ye chhota sa surprise meri taraf se aapke liye hai. 🥹🫶
+</p><a href="#special" class="btn">
+Open Your Surprise ✨
+</a></div></section><!-- SPECIAL --><section id="special"><div class="content"><h1 class="title">
+Aap Mere Liye Special Kyun Ho? 💗
+</h1><div class="box">Aapke saath baat karna hamesha thoda alag sa feel hota hai. 🥹
+
+<br><br>
+
+Aapki ek chhoti si smile bhi mood better kar sakti hai,
+aur aapke saath ki normal si conversation bhi yaad reh jaati hai. 🌸
+
+<br><br>
+
+Aap perfect ho ya nahi, ye important nahi...
+mere liye important ye hai ki aap <b>aap ho.</b> 💗
+
+<br><br>
+
+Aur isi liye...
+
+<br><br>
+
+<b>Happy Boyfriend Day! 💐💗</b>
+
+</div></div></section><!-- CUTE THINGS --><section><div class="content"><h1 class="title">
+Aapke Baare Mein Kuch Baatein 💕
+</h1><div class="grid"><div class="item"><div class="emoji">🥹</div><h3>Special</h3><p>
+Aapki presence hi kuch moments ko special bana deti hai.
+</p></div><div class="item"><div class="emoji">😂</div><h3>Funny</h3><p>
+Aapke saath hasi-mazaak karna hamesha fun hota hai.
+</p></div><div class="item"><div class="emoji">🫶</div><h3>Caring</h3><p>
+Aapki chhoti chhoti caring wali baatein dil ko achi lagti hain.
+</p></div><div class="item"><div class="emoji">🌷</div><h3>Beautiful Moments</h3><p>
+Aapke saath bitaya hua har cute moment apni jagah special hai.
+</p></div></div></div></section><!-- MESSAGE --><section><div class="content"><h1 class="title">
+Dil Se Ek Message 💌
+</h1><div class="box"><b>Happy Boyfriend Day! 💐💗</b>
+
+<br><br>
+
+Main shayad har baar properly express nahi kar paati,
+lekin aap mere liye genuinely bahut special ho. 💗
+
+<br><br>
+
+Aapke saath baat karna,
+aapko irritate karna,
+thoda sa pagalpan karna
+aur random baatein share karna...
+sab kuch mujhe pasand hai. 😂🫶
+
+<br><br>
+
+Aapke saath bitaye hue chhote chhote moments
+mere liye bahut precious hain. 🌸
+
+<br><br>
+
+Bas hamesha khush rehna,
+hamesha smile karna,
+aur apne cute se pagalpan ko kabhi change mat karna. 🥹💕
+
+<br><br>
+
+<b>
+Once again... Happy Boyfriend Day! 💐💗
+</b></div></div></section><!-- MEMORIES --><section><div class="content"><h1 class="title">
+Our Little Moments ✨
+</h1><div class="box">💗 Woh random conversations
+
+<br><br>
+
+😂 Woh unnecessary hasi-mazaak
+
+<br><br>
+
+🥹 Woh chhoti chhoti caring wali baatein
+
+<br><br>
+
+🌸 Woh moments jo normal the,
+lekin aapki wajah se special ban gaye
+
+<br><br>
+
+🫶 Aur woh saari memories
+jo future mein yaad karke smile aayegi.
+
+</div></div></section><!-- SECRET --><section><div class="content"><h1 class="title">
+Ek Secret Hai... 👀💌
+</h1><div class="box">Button dabao...
+shayad kuch cute sa mil jaaye. 👀💗
+
+<br><button class="btn" onclick="showSecret()">
+Click Here 💕
+</button><div class="surprise" id="secret">🥹💗
+
+<br><br>
+
+Agar aap yahan tak aa gaye ho,
+toh ek baat bata du...
+
+<br><br>
+
+<b>
+Aap meri life ke un special people mein se ho
+jinke hone se meri duniya thodi aur beautiful lagti hai.
+</b><br><br>
+
+Aur haan...
+
+<br><br>
+
+<b>
+Happy Boyfriend Day! 💐💗
+</b><br><br>
+
+Don't forget to smile! 🫶🌷
+
+</div></div></div></section><!-- END --><footer><h2>
+Happy Boyfriend Day! 💐💗
+</h2><p>
+Ye website chhoti si hai,
+lekin iske andar feelings bahut saari hain. 🥹
+</p><br><p>
+<strong>
+For You — Always Special 💕
+</strong>
+</p><br><p>
+Made With Lots Of Love 💗
+</p></footer><script>
+
+/* SECRET BUTTON */
+
+function showSecret(){
+
+    document.getElementById("secret").style.display="block";
+
+}
+
+
+/* FLOATING HEARTS */
+
+function createHeart(){
+
+    const heart=document.createElement("div");
+
+    heart.className="heart";
+
+    const emojis=[
+        "💗",
+        "💕",
+        "💖",
+        "💜",
+        "🩷",
+        "✨",
+        "🌸"
+    ];
+
+    heart.innerHTML=
+        emojis[Math.floor(Math.random()*emojis.length)];
+
+    heart.style.left=
+        Math.random()*100+"vw";
+
+    heart.style.fontSize=
+        (18+Math.random()*25)+"px";
+
+    heart.style.animationDuration=
+        (5+Math.random()*5)+"s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(()=>{
+        heart.remove();
+    },10000);
+
+}
+
+setInterval(createHeart,450);
+
+</script></body>
+</html>
